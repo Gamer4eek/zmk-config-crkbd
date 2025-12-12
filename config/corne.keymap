@@ -12,9 +12,10 @@
     combos {
         compatible = "zmk,combos";
 
-        Gaming {
+        combo_Gaming {
             bindings = <&to 4>;
             key-positions = <0 24 38>;
+            layers = <2>;
         };
     };
 
