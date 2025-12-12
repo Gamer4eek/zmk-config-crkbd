@@ -16,6 +16,7 @@
             bindings = <&to 4>;
             key-positions = <0 24 38>;
             layers = <2>;
+            timeout-ms = <100>;
         };
     };
 
@@ -85,9 +86,9 @@
 
         GAMING {
             bindings = <
-&kp ESC    &kp Q  &none  &kp W      &kp E  &kp T        &kp F3  &kp F5  &none  &none  &none  &kp TAB
-&kp K      &none  &kp A  &kp S      &kp D  &none        &none   &none   &none  &none  &none  &none
-&kp LCTRL  &none  &none  &none      &none  &kp C        &none   &none   &none  &none  &none  &none
+&kp ESC    &kp Q  &none  &kp W      &kp E  &kp T        &kp F3  &kp F5  &kp F11  &none  &none  &kp TAB
+&kp K      &none  &kp A  &kp S      &kp D  &none        &none   &none   &none    &none  &none  &none
+&kp LCTRL  &none  &none  &none      &none  &kp C        &none   &none   &none    &none  &none  &none
                          &kp LSHFT  &kp M  &kp SPACE    &none   &to 0   &none
             >;
         };
